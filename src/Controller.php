@@ -1,8 +1,7 @@
 <?php
 
-namespace EvolutionCMS\ClientSettings\Controllers;
+namespace EvolutionCMS\ClientSettings;
 
-use EvolutionCMS\ClientSettings\ClientSettings;
 use EvolutionCMS\Models\SystemSetting;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\View;

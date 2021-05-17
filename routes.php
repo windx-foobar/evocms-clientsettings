@@ -1,6 +1,6 @@
 <?php
 
-use EvolutionCMS\ClientSettings\Controllers\Controller;
+use EvolutionCMS\ClientSettings\Controller;
 use Illuminate\Support\Facades\Route;
 
 Route::pattern('tab', '[a-z0-9_-]+');
