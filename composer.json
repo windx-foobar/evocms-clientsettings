@@ -1,0 +1,16 @@
+{
+    "name": "mnoskov/evocms-clientsettings",
+    "description": "Custom settings module for Evolution CMS 3.x",
+    "autoload": {
+        "psr-4": {
+            "EvolutionCMS\\ClientSettings\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "EvolutionCMS\\ClientSettings\\ClientSettingsServiceProvider"
+            ]
+        }
+    }
+}
