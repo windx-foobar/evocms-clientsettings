@@ -11,7 +11,7 @@ php -d="memory_limit=-1" artisan package:installrequire mnoskov/evocms-module-ex
 php artisan vendor:publish --provider=EvolutionCMS\ClientSettings\ClientSettingsServiceProvider
 
 # создать папку core/custom/clientsettings и загрузить в нее примеры
-php artisan db:seed --class=ClientSettingsItemsSeeder
+php artisan db:seed --class=ClientSettingsSeeder
 ```
 
 Для начала работы нужно переименовать файлы конфигурации `core/custom/clientsettings/*.php.sample` в `*.php`.
