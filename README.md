@@ -8,7 +8,7 @@
 php -d="memory_limit=-1" artisan package:installrequire mnoskov/evocms-module-example "*"
 
 # создать события в базе данных
-php artisan vendor:publish --provider=EvolutionCMS\ClientSettings\ClientSettingsServiceProvider
+php artisan vendor:publish --provider="EvolutionCMS\ClientSettings\ClientSettingsServiceProvider"
 
 # создать папку core/custom/clientsettings и загрузить в нее примеры
 php artisan db:seed --class=ClientSettingsSeeder
