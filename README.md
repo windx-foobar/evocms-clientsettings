@@ -5,7 +5,7 @@
 Модуль для создания формы пользовательских настроек. http://docs.evo.im/03_extras/clientsettings.html
 
 ```
-php -d="memory_limit=-1" artisan package:installrequire mnoskov/evocms-module-example "*"
+php -d="memory_limit=-1" artisan package:installrequire mnoskov/evocms-clientsettings "*"
 
 # создать события в базе данных
 php artisan vendor:publish --provider="EvolutionCMS\ClientSettings\ClientSettingsServiceProvider"
